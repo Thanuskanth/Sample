@@ -1,0 +1,108 @@
+
+.generate-rows {
+  position: absolute;
+  left: -0.1em;
+  background: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  padding: 0.7em;
+  font-size: 0.7em;
+  border: 1px solid #ccc;
+  margin-top: -10em;
+  z-index: 1;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+  box-shadow: 0 0 2px #ccc;
+}
+
+.generate-rows label {
+  margin-bottom: 0.5em;
+}
+
+.generate-rows label span {
+  width: 5em;
+  display: inline-block;
+  text-align: right;
+  margin-right: 0.5em;
+}
+
+.generate-rows label input {
+  width: 20em;
+  padding: 0.3em;
+}
+
+.generate-rows label input[type='checkbox'] {
+  width: auto;
+}
+
+.generate-rows p {
+  text-align: center;
+}
+
+.generate-rows-outside {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.generate-rows-table-controls {
+  position: absolute;
+  margin-top: 0.5em;
+  z-index: 2;
+  left: -14em;
+  width: 14em;
+  text-align: right;
+}
+
+.weekend span {
+  width: 2em !important;
+  margin-top: 1em;
+}
+
+.rdrCalendarWrapper {
+  font-size: 10px;
+}
+.rdrDateDisplayWrapper {
+  background: #f3f3f3;
+}
+
+.rdrDateInput {
+  color: #aaa;
+}
+
+.rdrDateInput input {
+  color: #333;
+}
+
+.rdrDateDisplayItem { 
+  border-radius: 0;
+}
+
+.rdrMonthAndYearWrapper {
+  height: 40px;
+  padding: 0;
+}
+
+.rdrInRange, .rdrStartEdge, .rdrEndEdge {
+  color: #333 !important;
+}
+
+.rdrNextPrevButton {
+  background-color: #f3f3f3;
+}
+
+.rdrDayInPreview, .rdrDayEndPreview, .rdrDayStartPreview {
+  border-color: #333;
+}
+
+.rdrDayHovered:hover {
+  background: none;
+}
+
+.rdrDateDisplayItem input {
+  height: 2em;
+}

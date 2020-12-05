@@ -1,0 +1,114 @@
+table {
+  background: #fff;
+  width: 100%;
+}
+
+table thead tr {
+  height: 2em;
+  background: rgb(66, 182, 233);
+}
+
+table thead tr th {
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 500;
+  padding: 0.5em;
+}
+
+table thead tr th:first-child {
+  text-align: center;
+}
+
+table thead tr th:last-child {
+  text-align: center;
+}
+
+table tbody tr {
+  /* background: #eee; */
+  font-size: 0.9em;
+}
+
+table tbody tr td {
+  padding: 0.5em;
+}
+.data{
+  display: flex;
+  justify-content: flex-end;
+  /* text-align: right; */
+  align-items: flex-end;
+}
+table tbody tr td:last-child {
+  text-align: center;
+}
+
+table tbody tr td:first-child {
+  text-align: center;
+}
+
+.total {
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: right;
+  padding: 0.5em;
+}
+
+.page table tbody tr .controls {
+  position: absolute;
+  margin-top:-3em;
+  left:70%;
+  width: 14em;
+}
+
+.right-table-controls {
+  position: absolute;
+  right: -14em;
+  width: 14em;
+  margin-top: 0.7em;
+}
+
+.add-row-table-controls {
+  position: absolute;
+  margin-top: -1.2em;
+  left: -14em;
+  width: 14em;
+  text-align: right;
+}
+
+.row-controls {
+  position: absolute;
+  left: -14em;
+  width: 14em;
+  text-align: right;
+}
+.tableTotal{
+  background-color: rgb(161, 218, 245);
+  height: 40px;
+  display: flex;
+  /* text-align: center; */
+   justify-content: center;
+  align-items: center; 
+  /* border:solid 1px rgb(156, 146, 146); */
+}
+.totalamount{
+  background-color:rgb(197, 233, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 40px;
+
+}
+.print{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.sample{
+
+  background-color: blue;
+  position: relative;
+  margin-top: 1.2em;
+  left:90%;
+  width: 14em;
+  bottom: 100%;
+}

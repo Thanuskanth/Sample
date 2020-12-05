@@ -1,0 +1,252 @@
+
+.page .from-to {
+  display: flex;
+  justify-content: space-between; 
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2rem; 
+}
+.billto{
+  max-height: 5px;
+}
+.page .from-to h1 {
+  font-weight: 400;
+  text-align: right;
+  margin-bottom: 25px;
+
+}
+.page .from-to h3 {
+  font-weight: 400;
+}
+
+.page .from-to .name {
+  font-weight: 500;
+}
+
+.page .from-to .from {
+  width: 45%;
+  /* margin-top:120px; */
+}
+
+.page .from-to .to {
+  width: 50%;
+}
+.page .from-to .from p{
+  font-weight: 400;
+  margin-bottom: 2px;
+  text-align: left;
+}
+.page .from-to p{
+  font-weight: 400;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.page .from-to .card{
+  height:392px;
+  width: auto;
+}
+.page .from-to .to .card{
+  height: 120px;
+  width: auto;
+  padding: 0;
+}
+
+.card-header{
+background-color: rgb(66, 182, 233);
+}
+.card-body{
+  background-color: rgb(197, 233, 247);
+ 
+  }
+  .page .from-to .to  .card-body{
+    background-color: rgb(197, 233, 247);
+    justify-content: center;
+    align-items: center;
+    }
+  .customselect{
+    background-color: rgb(197, 233, 247);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .datepic{
+    background-color: rgb(197, 233, 247);
+
+  }
+  .datepica{
+    background-color: rgb(197, 233, 247);
+    border: none;
+    margin-left: 0;
+    width: 100%;
+
+  }
+  .option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .page .from-to  input[type="text"],textarea{
+    background-color: rgb(197, 233, 247) !important;;
+  }
+  input:-internal-autofill-selected{
+    background-color: rgb(197, 233, 247) !important;
+
+  }
+.page .from-to .to .card-header{
+  text-align: center;
+}
+.customer{
+  margin:20px 0px;
+}
+.custom-select{
+  margin-top: 0;
+}
+.generate{
+float: right;}
+.page{
+  margin-top:10px;
+}
+
+@media print {
+  button {
+    display: none !important;
+  }
+  input,
+  textarea {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  .sdf{
+    visibility: hidden;
+  }
+}
+
+.mynav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  z-index: 50;
+}
+.makeStyles-wrapper-2 {
+  padding-left: 0 !important; 
+  min-width: 650px !important;
+}
+.printview{
+  padding-top:170px ;
+
+  background-image: url("../../image/Invoice\ Print\ 01.jpg");
+  height: 100%;
+  /* width: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.printviewreceipt{
+  padding-top:125px ;
+
+  background-image: url("../../image/Receipt\ Print.jpg");
+  height: 100%;
+  /* width: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.printviewdebit{
+  padding-top:210px ;
+
+  background-image: url("../../image/Debit\ Note\ Print.jpg");
+  height: 100%;
+  /* width: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.printviewtest{
+  padding-top:170px ;
+
+  background-image: url("../../image/Invoice\ Print\ 02.jpg");
+  height: 100%;
+  /* width: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.font{
+  font-size: 20px;
+  font-weight: 500;
+}
+.fontd{
+  font-size: 18px;
+  font-weight: 500;
+}
+.invoicenu{
+padding-left: 270px;
+display: inline;
+}
+.date{
+ padding-left: 80px;
+  
+  display: inline;
+}
+.program{
+  padding-left: 270px;
+  padding-top: 20px;
+}
+.package{
+  
+  display: inline-block;
+  
+  }
+  .prodate{
+   
+    
+    display: inline;
+   
+  }
+  .proid{
+    padding-left: 270px;
+    
+    
+  }
+  select {
+  text-align: center;
+  text-align-last: center;
+  /* webkit*/
+}
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar{
+    padding:0!important
+  }
+  .billto{
+   
+  
+    display: inline-block;
+  }
+  .makeStyles-content-4 {
+    flex: 1 1 auto;
+    height: 100%;
+    overflow: auto;
+    padding-top: 80px;
+}
+
+@media (min-width: 80px)
+{
+  .makeStyles-wrapper-2 {
+    padding-left: 280px !important;
+    width: 100%;
+}
+}
